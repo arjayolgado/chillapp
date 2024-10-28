@@ -1,0 +1,77 @@
+.container {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    // border: 1px solid red;
+    // background-image: url("../../../assets/images/bg-result.jpg");
+}
+
+.bg-img {
+  border-radius: 15px;
+    margin-top: 20%;
+}
+
+  .message {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    font-size: 6vw;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #4B0082;
+  }
+
+.img-gif {
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+}
+
+.button-holder {
+    text-align: center;
+    position: absolute;
+    bottom: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90px;
+  }
+  
+  .top-img {
+    width: 60px;
+    padding: 10px;
+  }
+  
+  .img-holder {
+    background: #E0FFFF;
+    border-radius: 10px;
+    box-shadow: 
+    inset -5px -5px 10px rgba(0, 0, 0, 0.3),
+    0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .button-holder2 {
+    text-align: center;
+    position: absolute;
+    /* bottom: 34%; */
+    left: 0;
+    right: -75%;
+    margin: 0 auto;
+    width: 50px;
+    top: 14%;
+  }
+
+
+
+.card-img-container {
+  // width: 300px; /* Fixed width */
+  // height: 300px; /* Fixed height */
+  // overflow: hidden; /* Hides overflow if the image is too big */
+}
+
+.card-img {
+  width: 100%;
+  height: 100px;
+  // object-fit: contain;
+}

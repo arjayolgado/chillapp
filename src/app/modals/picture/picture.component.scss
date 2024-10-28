@@ -1,0 +1,83 @@
+.main-container {
+    height: 100%; 
+    // background-image: linear-gradient(to bottom, #ff6347, #ffd700);
+    background: url('../../../assets/images/background.jpg') center/cover no-repeat var(--color-primary);
+}
+
+.logo-holder {
+    position: relative;
+  }
+  
+  .logo-row {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .icon-card-menu {
+    position: absolute;
+    left: 5.5%;
+    top: 15px;
+    height: 14vw;
+    width: 14vw;
+  }
+
+  ion-button {
+    width: 150px;
+    --border-radius: 10px;
+    font-family: "chill-app-font";
+    --background: linear-gradient(to right, #7703B3, #FE00BE);
+  }
+
+  .img-base {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 80%;
+    height: 100%;
+  }
+
+  .img-holder {
+    border: 5px solid #7703B3;
+    border-radius: 20px;
+    height: 50%;
+    background: linear-gradient(#E2D8D7, #B6B0AF);
+    overflow: hidden; /* Ensure the image doesn't overflow the box */
+  }
+
+  $dash-size: 5px;
+$theme-color: #d8bfd8; // Changed theme color to light purple
+$fill-color: beige;
+
+.img-holder {
+  background: lighten($theme-color, 20%);
+  border: $dash-size dashed $theme-color;
+  box-shadow: 0 0 0 ($dash-size / 2) darken($theme-color, 20%),
+              0 0 0 ($dash-size * 2.5) #fff,
+              inset 0 0 0 ($dash-size / 2) darken($theme-color, 20%),
+              0 $dash-size ($dash-size * 2) ($dash-size * 3) rgba(0,0,0,0.5),
+              inset 0 0 0 ($dash-size * 1.2) #fff,
+              inset 0 0 100vw 100vw $fill-color;
+  text-shadow: 0 2px #fff;
+  text-align: center;
+}
+
+
+  .img-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire box while maintaining aspect ratio */
+  }
+
+  .button-holder {
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .button-holder2 {
+    margin-top: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,47 @@
+<ion-content [fullscreen]="true">
+  <div class="logo-holder">
+    <ion-row class="logo-row">
+      <ion-col>
+        <div class="button-holder2">
+          <div class="img-holder" (click)="onMenuClick()">
+            <img class="top-img" src="../../assets/images/menu.png" alt="">
+          </div>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="button-holder3">
+          <div class="img-holder" (click)="onVolumeClick()">
+            <img class="top-img" src="{{ volumeIcon }}" alt="">
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div id="container">
+    <div class="content">
+      <h1 class="playful" aria-label="Chill App">
+        <span aria-hidden="true">C</span>
+        <span aria-hidden="true">h</span>
+        <span aria-hidden="true">i</span>
+        <span aria-hidden="true">l</span>
+        <span aria-hidden="true">l</span>
+        <span aria-hidden="true"> </span>
+        <span aria-hidden="true">A</span>
+        <span aria-hidden="true">p</span>
+        <span aria-hidden="true">p</span>
+      </h1>
+    </div>
+    
+    <div>
+      <img class="gif" src="../../assets/gifs/nerd-observe.gif" >
+    </div>
+
+    <div>
+      <div class="button-holder">
+        <div class="img-holder" (click)="takePicture()">
+          <img class="top-img" src="../../assets/images/camera.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

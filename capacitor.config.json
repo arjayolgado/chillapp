@@ -1,0 +1,16 @@
+{
+    "appId": "com.example.chillapp",
+    "appName": "Chill App",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "www",
+    "plugins": {
+      "CapacitorSplashScreen": {
+        "splashAssets": {
+          "android": "resources/android/splash.png",
+          "ios": "resources/ios/splash.png"
+        }
+      }
+    }
+  }
+  

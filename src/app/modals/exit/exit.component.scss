@@ -1,0 +1,106 @@
+.image-container {
+    text-align: center;
+    margin: auto;
+}
+
+$color-alpha: #b78846;
+
+.box {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background: #D0E1F9;
+  width: 70%;
+  max-width: 600px;
+  padding: 5px;
+  border: 2px solid $color-alpha;
+  box-sizing: border-box; /* Ensure padding and border are included in the width/height calculation */
+  &:before, &:after {
+    content: "•";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    color: $color-alpha;
+    border: 2px solid $color-alpha;
+    line-height: 12px;
+    top: 5px;
+    text-align: center;
+  }
+  &:before {
+    left: 5px;
+  }
+  &:after {
+    right: 5px;
+  }
+  .box-inner {
+    position: relative;
+    border: 2px solid $color-alpha;
+    // padding: 40px;
+    box-sizing: border-box;  /* Ensure padding and border are part of the box model */
+    &:before, &:after {
+      content: "•";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      font-size: 14px;
+      color: $color-alpha;
+      border: 2px solid $color-alpha;
+      line-height: 12px;
+      bottom: -2px;
+      text-align: center;
+    }
+    &:before {
+      left: -2px;
+    }
+    &:after {
+      right: -2px;
+    }
+  }
+}
+
+h1 {
+    text-align: center;
+    color: #4B0082;
+    margin: 0;
+    padding: 20px;
+    word-wrap: break-word;
+  }
+
+  .button-holder {
+    text-align: center;
+    position: absolute;
+    bottom: 38%;
+    left: -47%;
+    right: 0;
+    margin: 0 auto;
+    width: 90px;
+  } 
+
+  .button-holder2 {
+    text-align: center;
+    position: absolute;
+    bottom: 38%;
+    left: 0;
+    right: -47%;
+    margin: 0 auto;
+    width: 90px;
+  } 
+  
+  .top-img {
+    width: 60px;
+    padding: 10px;
+  }
+
+  .img-holder {
+    background: #E0FFFF;
+    border-radius: 10px;
+    box-shadow: 
+        inset -5px -5px 10px rgba(0, 0, 0, 0.3), /* L-shape inner shadow */
+        0px 4px 10px rgba(0, 0, 0, 0.3); /* Existing outer shadow */
+}
+
+.bg-img {
+  border-radius: 15px;
+}
